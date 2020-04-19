@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gravity Sim</title>
+</head>
+<body>
+    <canvas style="width:100%;height:100%;background:black;"></canvas>
+    <script src="gravity.js"></script>
+    <div class="settings">
+        <label>Moons<input type="text" value="2" id="moon_num"/> </label>
+        <label>Initial Velocity<input type="text" value=".6" id="velocity_i"/></label>
+        <input type="submit" value="RESTART" onclick="Restart()"/>
+    </div>
+</body>
+</html>
